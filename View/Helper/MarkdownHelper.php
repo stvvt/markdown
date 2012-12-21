@@ -6,6 +6,7 @@ class MarkdownHelper extends AppHelper
 {
 	public function render($text)
 	{
+	    die('BUG BUG!!!');
 	    return Markdown($text);
 	}
 };

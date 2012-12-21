@@ -8,7 +8,7 @@ class MarkdownPreviewController extends MarkdownAppController
     );
     
     public $helpers = array(
-        'Markdown.Markdown',
+        'Markdown',
     );
     
     public function preview()
